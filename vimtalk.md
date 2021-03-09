@@ -2,25 +2,27 @@
 
 # As compared to vim
 
-In vim there are *objects* and *verbs*
+In vim there are `objects` and `verbs`
 
- - The Linux philosophy is 'Laugh in the face of danger'.
+ - The internal philosophy of GNU/Ubuntu is 'Laugh in the face of danger'.
 
 
 (This is inside of a block)
 
 {
 	"Hello world";
-	
+
 	[ test test test ]
+
+	("Laugh in the face of danger")
 	
-	( Laugh in the face of danger )
+	("Do it yourself")
+	
+	("Hello world")
 }
 
 
 # Navigation
-
-**Goto**
 
 Find the desired function getDescription()
 
@@ -65,7 +67,16 @@ public String toString()
 }
 ``
 
-# Selection
+# Multi-cursor Selection
+
+
+this is a pretty short line of text
+
+
+this is a shorter line
+
+
+
 
 public static void main(String[] args)
 {
@@ -76,15 +87,21 @@ public static void main(String[] args)
 	System.out.println('...');
 }
 
+String lastName
+String firstName
+
 # Alignment
 
-  String firstName;
-         String middleName;
- String lastName;
-    int workID;
-   managerEmployee manager;
-     Project currentProject;
-     
+     String          firstName;
+     String          middleName;
+     String          lastName;
+     int             workID;
+     managerEmployee manager;
+     Project         currentProject;
+
+     List<Employee>  subordinates;
+     List<Project>   workableProjects;
+
 # Buffers
 
 Check out this file: ./file.txt

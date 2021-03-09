@@ -1,6 +1,6 @@
-## Fundamental Concepts
+### Fundamental Concepts
 
-# The absolute basics
+## The absolute basics
 Vim and kakoune are both modal text editors
 
 There is a action mode and insert mode
@@ -38,7 +38,7 @@ To save a file you type :w and hit enter
 To exit a file you type :q and hit enter
 To exit a file and save you can type :wq and hit enter
 
-# Compared to vim
+#As compared to vim
 
 Vim uses objects and verbs
 
@@ -58,7 +58,7 @@ and the "yank" word (y)
 
  - In kakoune you use <a-i> and then select "parenthesis" b,(,)
 
-# Navigation
+## Navigation
 Navigation actions are very intuitive in kakoune.
 
 Large actions are performed with the go-to (g) menu
@@ -74,7 +74,7 @@ Searching in kakoune uses regex. Allowing for simple case-sensitive matching or 
   search for some regex
 
 
-# Selection
+## Selection
 
 As we've established, Kakoune is built on the concept of acting on your current selection
 
@@ -85,11 +85,36 @@ The simplest way to create a second cursor is by pressing C
 This will place a new cursor directly below your cursor, independent from the first one
  Multi-cursors move in sync and every action is performed simultaneously on both cursors
 
+so for the first example 
 
-# Alignment
+`
 
-# Buffers
 
+this is a pretty short line of text
+
+this is a shorter line
+
+`
+
+Demonstrate that different placements of your initial cursor will result in the 
+ new cursor showing up in a  different row of text
+ 
+
+For the code block example, search for System and then use A to go into insert mode at the end of each line.
+ then add a ; to the end of the line
+
+## Alignment
+Serving as an example of advanced use of all of these tools lets try to do 
+something useful and normally complex: aligning misaligned text
+
+a-i p
+s\w+
+a-; &
+
+## Buffers
 
 Open a new buffer with:
 :e <relative filename>
+
+you can also use goto to go into a file (opening a new buffer)
+gf (while selecting the filename)

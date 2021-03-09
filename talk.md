@@ -1,10 +1,18 @@
-## Kakoune Fundamental Concepts
+    #                                                         # 
+    #     #             #                                     # 
+    #     #   m   mmm   #   m   mmm   m   m  m mm    mmm      # 
+    #     # m"   "   #  # m"   #" "#  #   #  #"  #  #"  #     # 
+    #     #"#    m"""#  #"#    #   #  #   #  #   #  #""""     # 
+    #     #  "m  "mm"#  #  "m  "#m#"  "mm"#  #   #  "#mm"     # 
+    #                                                         # 
+
+## Fundamental Concepts
 
 # As compared to vim
 
 In vim there are `objects` and `verbs`
 
- - The internal philosophy of GNU/Linux is 'Laugh in the face of danger'.
+ - The Linux is 'Laugh in the face of danger'.
 
 
 (This is inside of a block)
@@ -80,11 +88,11 @@ this is a shorter line
 
 public static void main(String[] args)
 {
-	System.out.println('This is inside of a block');
+	System.out.println('This is inside of a block')
 	
-    System.out.println('I'm going to make a statement:');
+    System.out.println('I'm going to make a statement:')
 	
-	System.out.println('...');
+	System.out.println('...')
 }
 
 String lastName
@@ -92,13 +100,16 @@ String firstName
 
 # Alignment
 
-  String firstName;
-         String middleName;
- String lastName;
-    int workID;
-   managerEmployee manager;
-     Project currentProject;
-     
+    String firstName;
+  String middleName;
+      String lastName;
+   int workID;
+       managerEmployee manager;
+ Project currentProject;
+
+     List<Employee>  subordinates;
+     List<Project>   workableProjects;
+
 # Buffers
 
 Check out this file: ./file.txt
