@@ -1,4 +1,13 @@
-## Kakoune Fundamental Concepts
+    #                           #
+    #             "             #
+    #    m   m  mmm    mmmmm    #
+    #    "m m"    #    # # #    #
+    #     #m#     #    # # #    #
+    #      #    mm#mm  # # #    #
+    #                           #
+    #                           #
+
+## Fundamental Concepts
 
 # As compared to vim
 
@@ -80,11 +89,13 @@ this is a shorter line
 
 public static void main(String[] args)
 {
-	System.out.println('This is inside of a block');
+	System.out.println('This is inside of a block')
 	
-    System.out.println('I'm going to make a statement:');
+    System.out.println('I'm going to make a statement:')
 	
-	System.out.println('...');
+	System.out.println(foo(param1, param2))
+	
+	int a = foo(param2, param1)
 }
 
 String lastName
@@ -92,15 +103,15 @@ String firstName
 
 # Alignment
 
-     String          firstName;
-     String          middleName;
-     String          lastName;
-     int             workID;
-     managerEmployee manager;
-     Project         currentProject;
+    String firstName;
+  String middleName;
+      String lastName;
+   int workID;
+       managerEmployee manager;
+ Project currentProject;
 
-     List<Employee>  subordinates;
-     List<Project>   workableProjects;
+       List<Employee>  subordinates;
+       List<Project>   workableProjects;
 
 # Buffers
 

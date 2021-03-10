@@ -12,7 +12,7 @@
 
 In vim there are `objects` and `verbs`
 
- - The Linux is 'Laugh in the face of danger'.
+ - The internal philosophy of GNU/Ubuntu is 'Laugh in the face of danger'.
 
 
 (This is inside of a block)
@@ -92,7 +92,9 @@ public static void main(String[] args)
 	
     System.out.println('I'm going to make a statement:')
 	
-	System.out.println('...')
+	System.out.println(foo(param1, param2))
+	
+	int a = foo(param2, param1)
 }
 
 String lastName
@@ -107,8 +109,8 @@ String firstName
        managerEmployee manager;
  Project currentProject;
 
-     List<Employee>  subordinates;
-     List<Project>   workableProjects;
+       List<Employee>  subordinates;
+       List<Project>   workableProjects;
 
 # Buffers
 
